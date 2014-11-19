@@ -32,7 +32,7 @@
 				angular.forEach($scope.files,function(file){
 					fd.append('file',file)
 				})
-				$http.post('upload.php',fd,{
+				$http.post('upload file name',fd,{
 					transformRequest : angular.identity,
 					headers:{'Content-Type' :undefined}
 				})
